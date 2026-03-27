@@ -1,0 +1,170 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header .container{
+    background-color: black;
+    height: 15%;
+    border-bottom: 5px solid rgb(53, 190, 190);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.navbar li{
+    margin-right: 30px;
+    color: gold;
+    list-style: none;
+}
+
+.navbar a{
+    color: gold;
+    text-decoration: none;
+}
+
+.agora{
+    font-weight: 900;
+}
+
+.titulo{
+    color: rgb(53, 190, 190);
+}
+
+.banner .container{
+    background: url(/imgs/bg-jelly-fish-para-home.png);
+    height: 500px;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.banner p{
+    margin-left: 500px;
+}
+
+.container span{
+    font-weight: 900;
+    display: flex;
+    align-self: center;     
+}
+
+.social{
+    background-color: rgb(194, 190, 190);
+    height: 400px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.box img{
+    width: 120px;
+    margin: 50px;
+}
+
+.box{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box h4{
+    color: crimson;
+}
+
+.footer .container{
+    background-color: rgb(53, 190, 190);
+    color: white;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.version{
+    font-weight: bold;
+}
+
+/* Tela de Cadastro */
+.login{
+    background: url(/imgs/bg-jelly-fish-para-home.png);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+    background-color: rgb(194, 190, 190);
+    width: 600px;
+    height: 450px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card h2{
+    color: rgba(220, 20, 60, 0.788);
+    font-size: 30px;
+}
+
+.formulario span{
+    font-size: 13px;
+}
+
+.campo{
+    color: rgba(220, 20, 60, 0.788);
+}
+
+.campo input{
+    width: 500px;
+    height: 35px;
+    border-radius: 10px;
+    border-color: aqua;
+    border-width: 2px;
+    text-align: center;
+}
+
+.formulario .botao{
+    margin: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: crimson;
+    font-weight: bold;
+    border: none;
+    color: white;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
